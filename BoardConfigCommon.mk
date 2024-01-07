@@ -80,6 +80,9 @@ endif
 # Display HDR
 TARGET_HAS_HDR_DISPLAY := true
 
+# Disable Postrender Cleanup
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
